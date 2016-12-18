@@ -5,7 +5,7 @@ gemspec
 gem "administrate-field-image",
   git: "https://github.com/thoughtbot/administrate-field-image.git",
   branch: "jq-rails-5"
-gem "bourbon", "~> 4.2"
+gem "bourbon", "5.0.0.beta.6"
 gem "delayed_job_active_record"
 gem "faker"
 gem "high_voltage"
