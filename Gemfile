@@ -35,7 +35,7 @@ group :test do
   gem "database_cleaner"
   gem "formulaic"
   gem "launchy"
-  gem "poltergeist"
+  gem "poltergeist", ">= 1.7.0"
   gem "shoulda-matchers", "~> 2.8.0", require: false
   gem "timecop"
   gem "webmock"
