@@ -11,7 +11,7 @@ gem "faker"
 gem "high_voltage"
 gem "markdown-rails"
 gem "pg"
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 gem "unicorn"
 
 group :development do
