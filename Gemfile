@@ -15,7 +15,7 @@ gem "redcarpet"
 gem "unicorn"
 
 group :development do
-  gem "web-console", ">= 2.1.3"
+  gem "web-console", ">= 2.2.1"
 end
 
 group :development, :test do
@@ -23,7 +23,7 @@ group :development, :test do
   gem "awesome_print"
   gem "bundler-audit", require: false
   gem "byebug"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.2.2"
   gem "factory_girl_rails"
   gem "i18n-tasks"
   gem "pry-rails"
