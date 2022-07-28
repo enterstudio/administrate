@@ -6,7 +6,7 @@ gem "administrate-field-image",
   git: "https://github.com/thoughtbot/administrate-field-image.git",
   branch: "jq-rails-5"
 gem "bourbon", "5.0.0.beta.6"
-gem "delayed_job_active_record"
+gem "delayed_job_active_record", ">= 4.1.3"
 gem "faker"
 gem "high_voltage"
 gem "markdown-rails"
