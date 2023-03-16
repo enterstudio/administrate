@@ -6,7 +6,7 @@ gem "administrate-field-image",
   git: "https://github.com/thoughtbot/administrate-field-image.git",
   branch: "jq-rails-5"
 gem "bourbon", "5.0.0.beta.6"
-gem "delayed_job_active_record"
+gem "delayed_job_active_record", ">= 4.1.5"
 gem "faker"
 gem "high_voltage"
 gem "markdown-rails"
@@ -15,7 +15,7 @@ gem "redcarpet"
 gem "unicorn"
 
 group :development do
-  gem "web-console", ">= 2.1.3"
+  gem "web-console", ">= 2.2.1"
 end
 
 group :development, :test do
@@ -23,7 +23,7 @@ group :development, :test do
   gem "awesome_print"
   gem "bundler-audit", require: false
   gem "byebug"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "factory_girl_rails"
   gem "i18n-tasks"
   gem "pry-rails"
