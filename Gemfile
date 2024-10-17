@@ -9,13 +9,13 @@ gem "bourbon", "5.0.0.beta.6"
 gem "delayed_job_active_record"
 gem "faker"
 gem "high_voltage"
-gem "markdown-rails"
+gem "markdown-rails", ">= 2.0.2"
 gem "pg"
 gem "redcarpet"
 gem "unicorn"
 
 group :development do
-  gem "web-console", ">= 2.1.3"
+  gem "web-console", ">= 3.0.0"
 end
 
 group :development, :test do
