@@ -27,7 +27,7 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "i18n-tasks"
   gem "pry-rails"
-  gem "rspec-rails", "~> 3.5.0"
+  gem "rspec-rails", "~> 8.0.0"
 end
 
 group :test do
